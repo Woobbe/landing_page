@@ -52,11 +52,12 @@ img {
   padding: 40px 20px;
   letter-spacing: 1.5px;
   font-size: 14px;
+  transition: 0.5s;
 }
 
 .nav-menu__item a:hover {
   cursor: pointer;
-  background-color: #FF0000;
+  background-color: #ff0000;
 }
 
 /* header under nav-menu */
@@ -73,12 +74,40 @@ img {
   width: 50%;
 }
 
-.state-title {}
+.state-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
 
-.state-description {}
+.state-description {
+  margin-top: 30px;
+  line-height: 30px;
+  opacity: 0.9;
+}
 
-.state-contact-us {}
+.state-contact-us {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+}
 
-.state-button {}
+.state-button {
+  width: 230px;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 55px;
+}
 
-.header-video {}
+.header-video {
+  width: 50%;
+}
+
+.header-video iframe {
+  width: 100%;
+  height: 360px;
+}
