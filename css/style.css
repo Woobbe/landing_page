@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: none !important;
 }
 
 html {
@@ -26,6 +27,7 @@ img {
   max-width: 1250px;
   margin: 0px auto;
   padding: 15px;
+  padding-bottom: 100px;
 }
 
 /* navigation */
@@ -62,7 +64,7 @@ img {
 
 /* header under nav-menu */
 
-.header-presentation {
+.presentation {
   display: flex;
   margin-top: 100px;
 }
@@ -75,11 +77,18 @@ img {
 }
 
 .state-title {
-  font-size: 60px;
+  font-size: 42px;
   font-weight: 700;
-  line-height: 72px;
+  line-height: 55px;
   text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.state-title__header {
+  font-size: 60px;
+  line-height: 70px;
   letter-spacing: 6px;
+  opacity: 1;
 }
 
 .state-description {
@@ -110,4 +119,12 @@ img {
 .header-video iframe {
   width: 100%;
   height: 360px;
+}
+
+/* main */
+
+.state-learn-more {
+  border: 2px solid #ff0000;
+  background-color: #fff;
+  color: #ff0000;
 }
