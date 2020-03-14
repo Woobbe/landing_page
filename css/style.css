@@ -128,3 +128,35 @@ img {
   background-color: #fff;
   color: #ff0000;
 }
+
+.main-settings {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.settings-row {
+  display: flex;
+}
+
+.settings-item {
+  margin: 0 0 40px 50px;
+  width: 50%;
+}
+
+.settings-item img {
+  margin-bottom: 20px;
+}
+
+.settings-item h3 {
+  font-size: 22px;
+  opacity: 0.7;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+}
+
+.settings-item p {
+  opacity: 0.7;
+  line-height: 28px;
+}
