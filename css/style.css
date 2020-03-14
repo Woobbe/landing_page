@@ -158,5 +158,9 @@ img {
 
 .settings-item p {
   opacity: 0.7;
-  line-height: 28px;
+  line-height: 25px;
+}
+
+.main-line {
+  border-bottom: 2px solid #ececec;
 }
