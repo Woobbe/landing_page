@@ -51,7 +51,7 @@ img {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  padding: 40px 20px;
+  padding: 35px 25px;
   letter-spacing: 1.5px;
   font-size: 14px;
   transition: 0.5s;
@@ -103,6 +103,12 @@ img {
   border: none;
 }
 
+.state-contact-us:hover {
+  border: 2px solid #ff0000;
+  background-color: #fff;
+  color: #ff0000;
+}
+
 .state-button {
   width: 230px;
   height: 55px;
@@ -110,6 +116,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   margin-top: 55px;
+  cursor: pointer;
 }
 
 .header-video {
@@ -127,6 +134,12 @@ img {
   border: 2px solid #ff0000;
   background-color: #fff;
   color: #ff0000;
+}
+
+.state-learn-more:hover {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
 }
 
 .main-settings {
