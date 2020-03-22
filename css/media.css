@@ -1,0 +1,125 @@
+@media screen and (max-width: 1200px) {
+  .presentation {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .state {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .state-button {
+    margin: 30px auto;
+  }
+  .header-video {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .main-settings {
+    width: 100%;
+  }
+  .products-header {
+    width: 70%;
+  }
+  .footer {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .products-links li {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .state-title {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .product-items__row-col {
+    width: calc(100% / 12 * 6 - 30px);
+  }
+  .products-links a {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .products-header,
+  .contact-title,
+  .contact-form,
+  .contact-info {
+    width: 100%;
+  }
+  .subscribe-email {
+    margin-bottom: 25px;
+  }
+  .contact-form-info {
+    flex-direction: column;
+  }
+  .contact-name,
+  .contact-email,
+  .contact-message {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .contact-info {
+    padding: 70px 40px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .products-links {
+    flex-direction: column;
+    text-align: center;
+  }
+  .products-links li {
+    margin: 5px 0;
+  }
+  .products-links a::after {
+    top: 4px;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .footer-social {
+    margin: 5px;
+  }
+  .subscribe-email {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-menu__item {
+    justify-content: center;
+  }
+  .nav-menu__item a {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+  .state-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header-video iframe {
+    height: 240px;
+  }
+  .product-items__row-col {
+    width: calc(100% / 12 * 12 - 30px);
+  }
+  .settings-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .settings-item {
+    width: 100%;
+    margin-left: 0;
+  }
+}

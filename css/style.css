@@ -220,7 +220,6 @@ img {
 .products-links a {
   opacity: 0.7;
   font-size: 22px;
-  font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
   color: #000;
@@ -282,18 +281,6 @@ a:hover::after {
   display: flex;
   flex-direction: column;
   margin: 0 10px 20px;
-}
-
-@media screen and (max-width: 860px) {
-  .product-items__row-col {
-    width: calc(100% / 12 * 6 - 30px);
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .product-items__row-col {
-    width: calc(100% / 12 * 12 - 30px);
-  }
 }
 
 /* subscribe */
