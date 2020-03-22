@@ -306,7 +306,6 @@ a:hover::after {
 .subscribe-header {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
   flex-wrap: wrap;
 }
 
@@ -314,6 +313,8 @@ a:hover::after {
   opacity: 0.7;
   font-weight: 700;
   letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
 }
 
 .state-description__subscribe {
@@ -340,7 +341,7 @@ a:hover::after {
   margin-right: 20px;
 }
 
-.subscribe-submit {
+.submit {
   background-color: #ff0000;
   width: 214px;
   height: 79px;
@@ -359,13 +360,18 @@ a:hover::after {
 
 .contact {
   margin-top: 100px;
+  display: flex;
 }
 
 .contact-title-form {
   display: flex;
-  width: 50%;
+  width: 100%;
+  flex-direction: column;
 }
 
+.contact-title {
+  width: 50%;
+}
 .state-description__contact::after {
   display: block;
   position: absolute;
@@ -374,6 +380,69 @@ a:hover::after {
   width: 130px;
   height: 3px;
   background-color: #ff0000;
+}
+
+.contact-form-info {
+  display: flex;
+  margin-top: 110px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-name-email {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.contact-name,
+.contact-email,
+.contact-message {
+  width: 45%;
+  padding: 25px 48px;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.contact-message {
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.contact-send {
+  width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  flex-direction: column;
+  background-color: #2d2d2d;
+  margin-left: auto;
+  padding: 145px 80px;
+}
+
+.contact-info__header {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.contact-info address,
+.contact-info a {
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 30px;
+  line-height: 28px;
 }
 
 /* footer */
