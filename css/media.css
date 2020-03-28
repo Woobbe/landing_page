@@ -94,6 +94,13 @@
 }
 
 @media screen and (max-width: 560px) {
+  .container {
+    padding-bottom: 30px;
+  }
+  .presentation {
+    margin-top: 30px;
+  }
+
   .nav-menu {
     flex-direction: column;
   }
@@ -111,6 +118,12 @@
   .header-video iframe {
     height: 240px;
   }
+  .products-links {
+    margin-top: 70px;
+  }
+  .product-items {
+    margin-top: 35px;
+  }
   .product-items__row-col {
     width: calc(100% / 12 * 12 - 30px);
   }
@@ -121,5 +134,14 @@
   .settings-item {
     width: 100%;
     margin-left: 0;
+  }
+  .subscribe {
+    padding: 50px 15px;
+  }
+  .contact {
+    margin-top: 30px;
+  }
+  .contact-form-info {
+    margin-top: 60px;
   }
 }
